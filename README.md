@@ -2,7 +2,7 @@
 # Link to website: https://rryanwilsonw.github.io/Accessibile-Refactoring/
 # Photo of website
 
-<img src="assets/images/lead-homework1.png">
+<img src="assets/images/Homework1.png">
 
 # Read Me for Search Engine Optimization website. 
 
