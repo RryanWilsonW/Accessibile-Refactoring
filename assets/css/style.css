@@ -1,29 +1,30 @@
+/* Takes away styling from the browser. */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
-
+/* Adds a white background to the entire page. */
 body {
     background-color: #d9dcd6;
 }
-
+/* Adds color, font, and padding to the entire header tag. */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* Puts the Horiseon logo in line and increases its size. */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* Changes the color of the SEO in horiseon to a light grey. */ 
 .seo {
     color: #d9dcd6;
 }
-
+/* Postions the navigation to the right side of the <header> element, adds a new font, and changes the size. */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,22 +32,22 @@ nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Makes the list items in the nav bar display horizontally, spaces them out, and gets rid of the default list styling. */
 li {
     display: inline-block;
     margin-left:25px;
     list-style-type: none;
 }
-
+/* Changes the color of the links and gets rid of the underline. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Changes the size of all paragraph elements. */
 p {
     font-size: 16px;
 }
-
+/* This selectors imports a background image, and displays it on the page in a correct possition. */
 .hero {
     height: 800px;
     width: 100%;
@@ -55,24 +56,24 @@ p {
     background-size: cover;
     background-position: center;
 }
-
+/* Positions the first and third section image to the left, and adds margin to push the rest of the content away. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* Positions the second section image to the right, and adds margin to push it away from the rest of the conent. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* Adds room for the <aside> part of the page by positioning the sections with the class of content. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     
 }
-
+/* Positions the section with a class of "section-style", and adds unique styling. */
 .section-style {
     margin-bottom: 20px;
     padding: 50px;
@@ -81,17 +82,17 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* Changes the sizes of the <img> elements in <div> class "content" to fit their containers. */ 
 section img {
     max-height: 200px;
 }
-
+/* Changes the font size of the <h2> elements, and adds some space between them and the paragraphs underneath them. */
 section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -104,12 +105,12 @@ section h2 {
     color: #ffffff;
 }
 
-.benefits h3 {
+aside h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefits img {
+aside img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
