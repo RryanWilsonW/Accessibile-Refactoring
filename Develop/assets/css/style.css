@@ -1,0 +1,129 @@
+/* Gets rid of browser styling. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Gives a background color to the entire page. */
+body {
+    background-color: #d9dcd6;
+}
+/* Styles the header og the HTML file. */
+header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Styles the h1 element. */
+h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Changes the color of the SEO in the <h1> tag to a light grey.  */
+.seo {
+    color: #d9dcd6;
+}
+/* Styles the navigation and moves it to the right side of the page. */
+nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* Gets rid of any style on the list items and places them in line to the left. */
+li {
+    display: inline-block;
+    margin-left:25px;
+    list-style-type: none;
+}
+/* Gets rid of underline of links, and changes the color white. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Changes the font size of the paragraph elements. */
+p {
+    font-size: 16px;
+}
+/* Styles the background image to span the entire page in width, and centers the imahe on the page. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* Makes all of the section tags take up a width of 3/4 of the page, puts the elements inline, and adds margin to the left. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Floats the first and third <img> elements to the left, and adds margin to the right to push paragraph tags away. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* Floats the second <img> element to the right, and adds margin to the left to push paragraph tag away. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Styles the <aside> element with a background color of blue, a tect color of white, and adds a font family. Positions the <aside> to the right of the sections. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Aligns the h3 tags to the center of their container, and pushed the pictures below them down by 10px. */
+h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Takes the images of the benefits container, and takes them out of regular flow. Adds margin and centers the pictures. Sets a width. */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Styles the section elements, and places them in proper possition. */
+section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Adds a maximum hight to section images. */
+section img {
+    max-height: 200px;
+}
+/* Adds margin and changes font size of h2 tags. */
+h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* Styles the footer of the HTML document and aligns it to the center of the page. */
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+/*Increases the size of the h2 element contained in the footer. */
+footer h2 {
+    font-size: 25px;
+}
