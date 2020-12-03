@@ -37,7 +37,7 @@ The head element is located at the top of the HTML file, and contains meta data 
 
 This element is put into the HTML file, but does not take effect until you look at the CSS file. It is used to add the background picture of a meeting into the file.
 
-# Div class "content".
+# Div class content.
 
 This part of the document contains three <section> elements with the bulk of the pages information. These three sections have a similar format with an <h2> tags containing titles, <img> tags with corrisponding pictures, and <p> tags with the descriptive information for each tag. They are then styles and positioned using external CSS. The first and thrid section are positioned so that the pictures are on the left, and the second one positioned to the right. The sections also all contain an ID tag that make the links in the header functional. 
 
