@@ -47,4 +47,4 @@ The <aside> is a semantic element used to let the browser know that this content
 
 # Footer
 
-Lasty at the bottom of the page we have a <footer> element containing a signature of the person who originally mafe the page, as well as copyright information with year of development.  
+Lasty at the bottom of the page we have a footer element containing a signature of the person who originally mafe the page, as well as copyright information with year of development.  
