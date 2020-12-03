@@ -18,7 +18,7 @@ external CSS document and a title elemnt top define the page.
 
 # Header Element.
 
-The <header> element is a samantic tag used to help distinguish parts of the page to the browser. This element contains
+The header element is a samantic tag used to help distinguish parts of the page to the browser. This element contains
 a semantic <nav> tag with a name of the page and three links that navigate around the page.
 
 # Read Me for Search Engine Optimization website. 
@@ -43,7 +43,7 @@ This part of the document contains three section elements with the bulk of the p
 
 # Aside
 
-The <aside> is a semantic element used to let the browser know that this content will be alont the side of the page. This part of the page is organized in a similar manner to that of div class "content" while also having some signifigant differences. We see the same elemental structure, with a change of possitioning. Instead of being inline, all of the information is stacked ontop of itself. 
+The aside is a semantic element used to let the browser know that this content will be alont the side of the page. This part of the page is organized in a similar manner to that of div class "content" while also having some signifigant differences. We see the same elemental structure, with a change of possitioning. Instead of being inline, all of the information is stacked ontop of itself. 
 
 # Footer
 
